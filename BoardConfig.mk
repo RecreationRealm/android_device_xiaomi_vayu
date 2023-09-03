@@ -26,6 +26,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
 
 # Kernel
 TARGET_KERNEL_CONFIG := vayu_user_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/vayu
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
