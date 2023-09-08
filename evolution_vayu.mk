@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 EVO_BUILD_TYPE := COMMUNITY
-TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_USES_MIUI_CAMERA := true
 TARGET_USES_PICO_GAPPS := true
 
 # Inherit from vayu device
